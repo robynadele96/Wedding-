@@ -1,0 +1,164 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body {
+	display: inline-block;
+    max-width: 1800px;
+    margin: auto;
+    margin-top:3.5%;
+    margin-left: 18%;
+	text-align: center;
+	font-family:'Avantgarde', TeX Gyre Adventor, sans-serif;
+	background-color: white;
+	background-size: cover;
+}
+
+#collage1 {
+    border-radius: 25px;
+    opacity: 0.8;
+    transition: width 0.5s;
+}
+
+#collage1:hover {
+    width: 1100px;
+}
+
+#collage2 {
+    border-radius: 25px;
+    opacity: 0.8;
+    transition: width 0.5s;
+}
+
+#collage2:hover {
+    width: 1100px;
+}
+
+#collage3 {
+    border-radius: 25px;
+    opacity: 0.8;
+    transition: width 0.5s;
+}
+
+#collage3:hover {
+    width: 1100px;
+}
+
+#collage4 {
+    border-radius: 25px;
+    opacity: 0.8;
+    transition: width 0.5s;
+}
+
+#collage4:hover {
+    width: 1100px;
+}
+
+#pig {
+    transition: transform 5s ease-in-out;
+}
+
+#pig:hover{
+    transform: rotateX(150deg);
+    
+}
+
+h1 {
+	color: rgb(157, 196, 157);
+	text-align: center;
+	margin-bottom: 25px;
+    font-size: 50px;
+}
+
+h4 {
+	color: rgb(157, 196, 157);
+	text-align: center;
+    font-size: 35px;
+}
+
+h6 {
+    color: rgb(157, 196, 157);
+	text-align: center;
+    font-size: 15px;
+    font-style: italic;
+
+}
+
+p {
+    color: rgb(157, 196, 157);
+    /* background-color: rgba(190, 234, 190, 0.25); */
+    text-align: centre;
+	font-size: 20px;
+	padding: 15px;
+	margin-bottom: 25px;
+}
+
+#p1{
+    color: rgb(157, 196, 157);
+    font-size: 50px;
+}
+
+#ta1 {
+    color: rgb(157, 196, 157);
+    font-family:'Avantgarde', TeX Gyre Adventor, sans-serif;
+    font-size: 15px;
+    text-align: center;
+    width: 300px;
+    height: 50px;
+}
+
+#label1{
+    color: rgb(157, 196, 157);
+    font-size: 18px;
+
+}
+
+#button1{
+    background: rgba(113, 161, 111, 0.589);
+    font-family:'Avantgarde', TeX Gyre Adventor, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    border-radius: 12px;
+    padding: 5px 15px;   
+}
+
+#button2{
+    background: rgba(113, 161, 111, 0.589);
+    font-family:'Avantgarde', TeX Gyre Adventor, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+    border-radius: 12px;
+    padding: 5px 15px;   
+}
+
+#firstname{
+    color: rgb(157, 196, 157);
+    font-family:'Avantgarde', TeX Gyre Adventor, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+
+}
+
+#fn{
+    color: rgb(157, 196, 157);
+    font-family:'Avantgarde', TeX Gyre Adventor, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+}
+
+#lastname{
+    color: rgb(157, 196, 157);
+    font-family:'Avantgarde', TeX Gyre Adventor, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+
+}
+
+#ln{
+    color: rgb(157, 196, 157);
+    font-family:'Avantgarde', TeX Gyre Adventor, sans-serif;
+    font-size: 20px;
+    font-style: bold;
+}

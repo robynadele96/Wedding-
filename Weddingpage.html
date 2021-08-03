@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Wedding.css">
+        
+    <title>Wedding page</title>
+    </head>
+    <body>
+        <script>
+            var countDownDate = new Date("June 21, 2023 12:00:00").getTime();
+var x = setInterval(function() {
+
+var now = new Date().getTime();
+var distance = countDownDate - now;
+
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+document.getElementById("demo").innerHTML = days + "d " + hours + "h "
++ minutes + "m " + seconds + "s ";
+    
+if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+}
+}, 1000);
+        </script>
+        
+        <p id=p1>Countdown to our wedding!</p>
+        <p id="demo"></p>
+
+<img src="1.1.png" id='collage1' width="1024px" height="224px"/>
+
+
+        <h1>LUKE AND ROBYN'S WEDDING PAGE</h1>
+        <br>
+        <p>Hi all! Just a webpage to keep you all updated with our wedding!
+            <br>As most of you are aware we are newly engaged.
+            <br>We are looking at having our wedding in the summer of 2023.
+            <br>Hopefully this page will show you our ideas for it!
+            
+        </p>
+        <br>
+        <img src="1.2.png" id='collage2' width="1024px" height="224px"/>
+        <br>
+        <br>
+        <br>
+        <h4>LOCATION</h4>
+        <p>Ideally we would like to have our wedding in between Nottingham and Southampton.
+            <br>This makes travel for our Southampton family and friends a bit easier
+            and is a change of scenery for everyone.
+            <br>With this in mind we'd be looking at Oxford/Banbury area.</p>
+            <br>
+            <img src="1.3.png" id='collage3' width="1024px" height="224px"/>
+        <br>
+            <br>
+            <br>
+        <h4>FOOD</h4>
+        <p>Most importantly... Food!
+            <br>One of the best things about a wedding is the food and Luke and I have been thinking about this for quite a while
+            <br>We would definitely like to include a hog roast (yum).
+            <h6>HOVER BELOW TO EVENLY ROAST THE HOG</h6>
+            <br>
+            <img src='pig.png' id='pig' width='350px' height='150px'/>
+            <div></div>
+            <img src='fire.gif' id='fire' width='175px' height='175px'/>
+            <br>As well as this we would have an open table buffet with lots of cheeses, cold meats, sandwiches, scones etc.
+            <br>We will also be providing tasty food for our vegan friends.
+            <br>
+            <br><textarea id=ta1>Tell us of what food you'd most like to see at our wedding</textarea>
+            <form>
+                <section>
+                    <label for='meateater'>Please select one of the below:</label>
+                    <select id='meateater'>
+                        <option value="">-- Select --</option>
+                        <option value='Chicken'>Meat eater</option>
+                        <option value='Pork'>Vegetarian</option>
+                        <option value='Beef'>Vegan</option>
+                    </select>
+                    <br>
+                    <br>
+                    <button type="button" id='button1'>Submit</button>
+                </section>
+        </p>
+        <br>
+        <img src="1.4.png" id='collage4' width="1024px" height="224px"/>
+        <br>
+        <br>
+        <br>  
+        <h4>WEDDING THEME</h4>
+        <p>For our wedding theme we would love rustic, natural, boho. We love the idea of hay bales, plant walls and fairy lights everywhere!
+        <br>We would love for our reception to be outside to achieve this with a large marquee for us all.
+        </p>
+
+        <h4>RSVP</h4>
+        <p>Please fill out the below if you are able to join us for the special day.</p>
+        <form action="/action_page.php" id='form2'>
+			<section>
+				<label for='firstname' id='fn'>First Name</label>
+				<input type='text' id="firstname" name="firstname" />
+                <br>
+                <label for='lastname' id='ln'>Last Name</label>
+                <input type='text' id='lastname' name='lastname' />
+                <br>
+                <br>
+                <button type="button" id='button2'>Submit</button>
+                </section>
+                <br>
+                <br>
+                
+            </p>
+<br>
+<br>
+<script type='text/javascript' src='Wedding.js'></script>
+    </body>
+    
+</html>
